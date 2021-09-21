@@ -1,5 +1,5 @@
 function getPyramid() {
-  const maxFloors = 7;
+  const maxFloors = 9;
   let shape = "";
 
   for (let floor = 1; floor <= maxFloors; floor++) {
@@ -18,7 +18,7 @@ function getPyramid() {
 }
 
 function getReversePyramid() {
-  const maxFloors = 7;
+  const maxFloors = 9;
   let shape = "";
 
   for (let floor = 0; floor < maxFloors; floor++) {
@@ -39,7 +39,7 @@ function getReversePyramid() {
 function getTriangle() {
   let shape = "";
 
-  for (let floor = 1; floor <= 6; floor++) {
+  for (let floor = 1; floor <= 9; floor++) {
     for (let flat = 0; flat < floor; flat++) {
       shape = shape + "*";
     }
